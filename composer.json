@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Emizen_EmailImages",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This module will enable product image thumbnail on sales email",
+    "authors": [
+    {
+        "name": "Emizen Tech Private Limited",
+        "email": "info@emizentech.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

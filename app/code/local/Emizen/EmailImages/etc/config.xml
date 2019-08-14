@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Emizen_EmailImages>
+      <version>0.1.0</version>
+    </Emizen_EmailImages>
+  </modules>
+  <frontend>
+    <layout>
+      <updates>
+      <emailimages>
+        <file>emizen/emailimages.xml</file>
+      </emailimages>
+      </updates>
+    </layout>
+  </frontend>
+  <global>
+    <helpers>
+      <emailimages>
+        <class>Emizen_EmailImages_Helper</class>
+      </emailimages>
+    </helpers>
+  <blocks>
+    <emailimages>
+    <class>Emizen_EmailImages_Block</class>
+    </emailimages>
+      <sales>
+        <rewrite>
+          <order_email_items_order_default>Emizen_EmailImages_Block_Sales_Order_Email_Items_Order_Default</order_email_items_order_default>
+        </rewrite>
+      </sales>
+  </blocks>
+  </global>
+  <default>
+    <email_images>
+        <general>                
+            <image_resize>135</image_resize>         
+        </general>      
+    </email_images>
+</default>
+</config> 
