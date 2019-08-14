@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Emizen_EmailImages</name>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Using this module you can show product thumbnails on sales emails. You can set image size from backend. Just enable it and it will started to sending images in sales emails.</description>
     <notes>Using this module you can show product thumbnails on sales emails. You can set image size from backend. Just enable it and it will started to sending images in sales emails.</notes>
     <authors><author><name>Emizen Tech Private Limited</name><user>emizen</user><email>info@emizentech.com</email></author></authors>
-    <date>2015-06-17</date>
-    <time>12:17:33</time>
-    <contents><target name="mageetc"><dir><dir name="modules"><file name="Emizen_EmailImages.xml" hash="ac7c02dc26ec52b848494e3fc03597ae"/></dir></dir></target><target name="magelocal"><dir><dir name="Emizen"><dir name="EmailImages"><dir><dir name="Block"><dir name="Sales"><dir name="Order"><dir name="Email"><dir name="Items"><dir name="Order"><file name="Default.php" hash="e980f7e1938b8fc75df87f0084c090c4"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="3990c53f4796f415d1207e1e044ee9e4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="dd4287dc2bf3625378b2fdabf8e9762c"/><file name="config.xml" hash="f97e525601e28a940812ddd46c8aa5f8"/><file name="system.xml" hash="dcef1cad310692f4f144c87720ee919a"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="emizen"><dir><dir name="emailimages"><dir name="order"><dir name="items"><dir name="order"><file name="default.phtml" hash="9bc2d37b958f2f536077cd214b59e57c"/></dir></dir><file name="items.phtml" hash="0533373bc486c7c5355f5540e81d6975"/></dir></dir></dir></dir></dir><dir name="layout"><dir name="emizen"><file name="emailimages.xml" hash="927bc10641eb6a8c3fc4dca1c7bf8d45"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-06-18</date>
+    <time>06:31:25</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Emizen_EmailImages.xml" hash="ac7c02dc26ec52b848494e3fc03597ae"/></dir></dir></target><target name="magelocal"><dir><dir name="Emizen"><dir name="EmailImages"><dir><dir name="Block"><dir name="Sales"><dir name="Order"><dir name="Email"><dir name="Items"><dir name="Order"><file name="Default.php" hash="e980f7e1938b8fc75df87f0084c090c4"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="3990c53f4796f415d1207e1e044ee9e4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="dd4287dc2bf3625378b2fdabf8e9762c"/><file name="config.xml" hash="f97e525601e28a940812ddd46c8aa5f8"/><file name="system.xml" hash="dcef1cad310692f4f144c87720ee919a"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="emizen"><dir><dir name="emailimages"><dir name="order"><dir name="items"><dir name="order"><file name="default.phtml" hash="9bc2d37b958f2f536077cd214b59e57c"/></dir></dir><file name="items.phtml" hash="0533373bc486c7c5355f5540e81d6975"/></dir></dir></dir></dir></dir><dir name="layout"><dir name="emizen"><file name="emailimages.xml" hash="a6deedcb25796d8f1d4cd6802934eaa8"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
