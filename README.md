@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This module will enable product image thumbnail on sales email
